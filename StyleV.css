@@ -1,0 +1,306 @@
+/*================================Body============================*/
+
+body{
+    font-size: 30px;
+    font-family: Verdana, Gevena, Tahoma, sans-serif;
+    background: linear-gradient(black, rgb(75, 75, 75), rgb(131, 131, 131));
+}
+
+/*===============================Header==========================*/
+
+header{
+    height: 50%;
+    padding: 85px;
+    background-image: url(Imagem/Home/bgCI.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header img{
+    width: 20%;
+}
+
+header nav{
+    margin-right: 450px;
+}
+
+header nav a{
+    text-decoration: none; /*remove a decoração do link*/
+    color: #ffe100; /*cor do texto*/
+    text-transform: uppercase; /*margin interna*/
+    padding: 50px;/*texto em negrito*/
+}
+
+header nav a:hover{
+    color: #ffffff;
+    text-decoration: underline; /*texto sublinhado*/
+    font-size:30px; /*tamanho da fonte ao clicar*/
+    font-weight: bold;
+
+}
+
+/*======================================================================*/
+/*===============================HOME===================================*/
+/*======================================================================*/
+
+.banner img{   
+   width: 100%;
+   box-shadow: 10px 10px 20px 0px black;
+  
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size:40px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+/*==============================Sobre==========================*/
+
+
+
+.sobre img{
+   
+    width: 400px;
+    height: 300px;
+   
+    margin: 0px 20px 0px 20px;
+}
+
+.contato img{
+   
+    width: 100px;
+    height: 50px;
+  
+    margin: 0px 20px 0px 20px;
+}
+
+.contato-img-txt p{
+    padding: 25px;
+ }
+
+ .contato-img-txt strong{
+    font-weight: bold;
+}
+
+.face img{
+   
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin: 0px 20px 0px 20px;
+}
+
+.face-img-txt p{
+    padding: 25px;
+ }
+
+ .face-img-txt strong{
+    font-weight: bold;
+}
+
+/*===========================================================*/
+.whats img{
+   
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin: 0px 20px 0px 20px;
+}
+
+.sobre-img-txt{
+    display: flex;
+
+}
+
+.sobre-img-txt strong{
+    font-weight: bold;
+}
+
+.sobre-img-txt em{
+    font-style: italic;
+    color: red;
+}
+
+.sobre-img-txt p{
+    padding: 10px;
+ }
+
+/*=============================================================*/
+/*==========================Serviços===========================*/
+/*=============================================================*/
+
+/*===========================Opcoes========================*/
+
+.Opcoes{
+    display: flex;
+    margin: 40px auto 40px 25%;
+
+}
+
+h2{
+    font-size:20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;  
+    font-weight: bold; 
+}
+
+p{
+    color:#ffffff;
+}
+
+.cont form{
+    color: #ffffff;
+    font-size: 15pt;
+    padding: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+ 
+
+.Opcoes div{
+    text-align: center;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-inline: 30px;   
+}
+
+button{
+    width: 500px;
+    height: 50px;
+    background-color: #ffe100;
+    box-shadow: 10px 10px 10px 0px black;
+    transition: 400ms; 
+
+}
+
+.Opcoes p{
+    padding: 10px;
+}
+
+.Opcoes div:hover{
+    border-color: gold;
+    border: bold;
+}
+
+/*=======================Estabelecimento=========================*/
+
+
+
+.estabelecimento p{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.estabelecimento div{
+    width: 100%;
+    margin: auto;
+    padding: 10px;   
+}
+
+.estabelecimento iframe{
+    margin-left: 625px;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+/*=============================Beneficios=========================*/
+
+.beneficio article{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.Carros img{
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin: 0px 20px 0px 20px;
+    
+}
+
+.beneficio article ul{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.beneficio article ul li{
+    line-height: 1.5; /*espaçamento entre linhas*/
+}
+
+.beneficio article ul li:first-child{
+    font-weight: bold;
+}
+
+.beneficio{
+    background: linear-gradient(gray, gray);
+}
+
+.beneficio article ul li:before{
+    content: "⭐";
+}
+
+.beneficio article img{
+    max-width: 60%;
+    min-height: 40%;
+    box-shadow: 10px 10px 10px 0px black; /*sombreado na imagem*/
+    opacity: 1; /*Opacidade inicial = 10%*/
+    transition: 400ms; /*tempo de transição da imagem em relação a opacidade*/
+}
+
+.beneficio article img:hover{
+    opacity: 0.3; /*opacidade quando passar o mouse*/
+}
+
+.beneficio div{
+    width: 80%;
+    margin: auto;
+    margin-left: 625px;
+}
+
+/*=======================================Footer=======================*/
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-image: url(imagem/home/bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+footer img{
+    width: 80%;
+    
+}
+    
+
+
+footer p{
+    color: gold;
+}
+
+
+
+
+
+
+
